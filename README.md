@@ -10,7 +10,8 @@
 ![Captura 5](img/Captura%20de%20pantalla%202026-10-08%20105732.png)
 
 ## Crear y  comprobar el contenedor
-![Captura 6](img/Captura%20de%20pantalla%202026-10-08%20111009.png)
+![Captura 6](img/Captura%20de%20pantalla%202026-10-08%20132356.png)
+![Captura 6](img/Captura%20de%20pantalla%202026-10-08%20132541.png)
 
 
 

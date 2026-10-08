@@ -11,7 +11,8 @@
 
 ## Crear y  comprobar el contenedor
 ![Captura 6](img/Captura%20de%20pantalla%202026-10-08%20132356.png)
-![Captura 6](img/Captura%20de%20pantalla%202026-10-08%20132541.png)
+![Captura 7](img/Captura%20de%20pantalla%202026-10-08%20133131.png)
+![Captura 8](img/Captura%20de%20pantalla%202026-10-08%20132541.png)
 
 
 

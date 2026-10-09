@@ -15,6 +15,7 @@
 ![Captura 8](img/Captura%20de%20pantalla%202026-10-08%20132541.png)
 
 ### Entrar en Oracle y crear el usuario de trabajo
+![Captura 9](img/Captura%20de%20pantalla%202026-10-09%20115953.png)
 
 
 ## ERRORES

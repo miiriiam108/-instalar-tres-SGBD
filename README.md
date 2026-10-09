@@ -2,18 +2,19 @@
 
 ##  Desplegar Oracle Database 23ai Free con Podman
 
-- Preparar Podman y descargar la imagen
+### Preparar Podman y descargar la imagen
   
 ![Captura 1](img/Captura%20de%20pantalla%202026-10-07%20133203.png)
 ![Captura 2](img/Captura%20de%20pantalla%202026-10-07%20133831.png)
 ![Captura 4](img/Captura%20de%20pantalla%202026-10-08%20105525.png)
 ![Captura 5](img/Captura%20de%20pantalla%202026-10-08%20105732.png)
 
-## Crear y  comprobar el contenedor
+### Crear y  comprobar el contenedor
 ![Captura 6](img/Captura%20de%20pantalla%202026-10-08%20132356.png)
 ![Captura 7](img/Captura%20de%20pantalla%202026-10-08%20133131.png)
 ![Captura 8](img/Captura%20de%20pantalla%202026-10-08%20132541.png)
 
+### Entrar en Oracle y crear el usuario de trabajo
 
 
 ## ERRORES

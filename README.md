@@ -21,6 +21,10 @@
 ![Captura 12](img/Captura%20de%20pantalla%202026-10-09%20120924.png)
 
 ### Desplegar PostgreSQL
+![Captura 13](img/Captura%20de%20pantalla%202026-10-09%20121324.png)
+![Captura 14](img/Captura%20de%20pantalla%202026-10-09%20121420.png)
+![Captura 15](img/Captura%20de%20pantalla%202026-10-09%20122030.png)
+![Captura 16](img/Captura%20de%20pantalla%202026-10-09%20122051.png)
 
 
 ## ERRORES

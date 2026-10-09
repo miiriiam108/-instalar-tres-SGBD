@@ -25,6 +25,13 @@
 ![Captura 14](img/Captura%20de%20pantalla%202026-10-09%20121420.png)
 ![Captura 15](img/Captura%20de%20pantalla%202026-10-09%20122030.png)
 ![Captura 16](img/Captura%20de%20pantalla%202026-10-09%20122051.png)
+![Captura 17](img/Captura%20de%20pantalla%202026-10-09%20122525.png)
+
+###  Desplegar MariaDB
+
+
+
+
 
 
 ## ERRORES

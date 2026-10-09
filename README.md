@@ -29,9 +29,13 @@
 
 ###  Desplegar MariaDB
 
+![Captura 18](img/Captura%20de%20pantalla%202026-10-09%20123519.png)
+![Captura 19](img/Captura%20de%20pantalla%202026-10-09%20123603.png)
+![Captura 20](img/Captura%20de%20pantalla%202026-10-09%20123630.png)
 
+## Características de la VM y versiones instaladas de Oracle 23ai Free, PostgreSQL y MariaDB.
 
-
+- Sistema operativo: Linux Mint 
 
 
 ## ERRORES

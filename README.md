@@ -85,11 +85,21 @@ Por último compruebo el acceso local
 ## Conexiones desde otra máquina
 
 - **POSTGRESQL**
+
 ![Captura 2](img/Captura%20de%20pantalla%202026-10-10%20133349.png)
+
 ![Captura 22](img/Captura%20de%20pantalla%202026-10-10%20133514.png)
 
+
 - **MARIADB**
-![Captura 23](img/Captura%20de%20pantalla%202026-10-10%20133514.png)
+  
+![Captura 23](img/Captura%20de%20pantalla%202026-10-10%20134618.png)
+
+![Captura 24](img/Captura%20de%20pantalla%202026-10-10%20134951.png)
+
+![Captura 25](img/Captura%20de%20pantalla%202026-10-10%20135104.png)
+
+![Captura 26](img/Captura%20de%20pantalla%202026-10-10%20135831.png)
 
 
 ## Características de la VM y versiones instaladas de Oracle 23ai Free, PostgreSQL y MariaDB.

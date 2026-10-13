@@ -86,20 +86,28 @@ Por último compruebo el acceso local
 
 - **POSTGRESQL**
 
+He cambiado el listen_addresses para que el gestor escuche en la IP de la VM
+
 ![Captura 2](img/Captura%20de%20pantalla%202026-10-10%20133349.png)
 
+He añadido una regla limitada a la base,al usuario y a la IP autorizada
+
 ![Captura 22](img/Captura%20de%20pantalla%202026-10-13%20084256.png)
+
+He ejecutado este comando para que otras máquinas puedan conectarse al servidor y bloquear el acceso desde fuera de la red 
+
+![Captura 23](img/Captura%20de%20pantalla%202026-10-13%20084705.png)
 
 
 - **MARIADB**
   
-![Captura 23](img/Captura%20de%20pantalla%202026-10-10%20134618.png)
+![Captura 24](img/Captura%20de%20pantalla%202026-10-10%20134618.png)
 
-![Captura 24](img/Captura%20de%20pantalla%202026-10-10%20134951.png)
+![Captura 25](img/Captura%20de%20pantalla%202026-10-10%20134951.png)
 
-![Captura 25](img/Captura%20de%20pantalla%202026-10-10%20135104.png)
+![Captura 26](img/Captura%20de%20pantalla%202026-10-10%20135104.png)
 
-![Captura 26](img/Captura%20de%20pantalla%202026-10-10%20135831.png)
+![Captura 27](img/Captura%20de%20pantalla%202026-10-10%20135831.png)
 
 
 ## Características de la VM y versiones instaladas de Oracle 23ai Free, PostgreSQL y MariaDB.

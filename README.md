@@ -100,11 +100,16 @@ He ejecutado este comando para que otras máquinas puedan conectarse al servidor
 
 
 - **MARIADB**
-  
+
+He cambiado el bind-address para escuchar en la IP de la VM
+
 ![Captura 24](img/Captura%20de%20pantalla%202026-10-10%20134618.png)
+
+He creado una cuenta para la IP concreta del cliente y le he concedido permisos sólo sobre dbm y he reiniciado la máquina
 
 ![Captura 25](img/Captura%20de%20pantalla%202026-10-10%20134951.png)
 
+Me he conectado desde otra máquina cliente
 ![Captura 26](img/Captura%20de%20pantalla%202026-10-10%20135104.png)
 
 ![Captura 27](img/Captura%20de%20pantalla%202026-10-10%20135831.png)
@@ -158,7 +163,41 @@ He comprobado la conexión con muser:
   
 ##  Configuración de red realizada, si habilitaste conexiones desde otra máquina
 
-No he habilitado conexiones desde otra máquina
+**POSTGRESQL**
+
+1. Configuración del servidor
+   1. sudo nano /etc/postgresql/16/main/postgresql.conf
+   2. listen_addresses = '192.168.1.11'
+   3. sudo nano /etc/postgresql/16/main/pg_hba.conf
+   4. host dbpg pguser 192.168.1.0/24 scram-sha-256
+   5. sudo ufw allow from 192.168.1.0/24 to any port 5432 proto tcp
+   6. sudo systemctl restart postgresql
+  
+2. Comprobación
+   1. sudo systemctl status postgresql
+  
+3. Prueba desde cliente
+   1. psql -h 192.168.1.11 -U pguser -d dbpg -W
+  
+4. Conclusión
+   Se habilitaron las conexiones externas al servidor PostgreSQL desde la red local.
+   El servicio escucha en la IP 192.168.1.11 y en el puerto 5432.
+   
+**MARIADB**
+
+1. Configuración del servidor
+   1. sudo nano /etc/mysql/mariadb.conf.d/50-server.cnf
+   2. bind-address = 192.168.1.11
+  
+2. Creación del usuario
+   1. CREATE USER 'muser'@'192.168.1.12' IDENTIFIED BY 'clave';
+   2. GRANT ALL PRIVILEGES ON dbm.* TO 'muser'@'192.168.1.12';
+   3. FLUSH PRIVILEGES;
+   4. EXIT;
+  
+3. Comprobación
+   1. sudo ufw allow from 192.168.1.12 to any port 3306 proto tcp
+   2. mariadb -h 192.168.1.11 -u muser -p dbm
 
 ## ERRORES
 1. No se si es un error, pero he utilizado una máquina mint que ya tenía pero era de 50 GB de almacenamiento y la tarea me ponia de 250 GB por lo que en la terminal de mi pc he cambiado el tamaño con el comando
@@ -172,6 +211,12 @@ No he habilitado conexiones desde otra máquina
 2. Me aparece un error como que el archivo se ha creado con un tamaño incorrecto para solucionarlo he instalado una versión anterior la **23.4.0.0**
 
   ![Captura 7](img/Captura%20de%20pantalla%202026-10-08%20123001.png)
+
+3. Cuando me conecto a una máquina cliente, no me deja entrar en postgresql pero no encuentro la solución
+
+  ![Captura 3](img/Captura%20de%20pantalla%202026-10-13%20090311.png)
+
+   
 
 ## BIBLIOGRAFÍA
 

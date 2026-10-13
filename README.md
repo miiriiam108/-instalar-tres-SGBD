@@ -88,7 +88,7 @@ Por último compruebo el acceso local
 
 ![Captura 2](img/Captura%20de%20pantalla%202026-10-10%20133349.png)
 
-![Captura 22](img/Captura%20de%20pantalla%202026-10-10%20133514.png)
+![Captura 22](img/Captura%20de%20pantalla%202026-10-13%20084256.png)
 
 
 - **MARIADB**
